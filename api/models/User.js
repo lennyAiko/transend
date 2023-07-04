@@ -26,6 +26,10 @@ module.exports = {
       type: "string",
       required: true
     },
+    wallet: {
+      collection: "wallet",
+      via: "user"
+    }
   },
   customToJSON: function () {
     return _.omit(this, ["password", "createdAt", "updatedAt"]);

@@ -42,6 +42,7 @@ module.exports = {
         password: hashedPassword,
       };
       const user = await User.create(newUser).fetch();
+      await Wallet.create({ id:await sails.helpers.uuidGenerator(), user: user.id });
       return exits.success(user);
     } catch (error) {
       return exits.serverError(error);
