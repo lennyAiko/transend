@@ -10,5 +10,5 @@
 
 module.exports.routes = {
 
-
+    'POST /register': 'user/register'
 };
