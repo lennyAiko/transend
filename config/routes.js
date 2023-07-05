@@ -19,4 +19,6 @@ module.exports.routes = {
   "GET /v1/user/wallet": "wallet/view",
   // TRANSFER
   "POST /v1/transfer": "wallet/transfer",
+  //ADD MONEY
+  "POST /v1/add_money": "wallet/add",
 };
