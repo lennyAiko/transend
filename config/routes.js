@@ -21,4 +21,6 @@ module.exports.routes = {
   "POST /v1/transfer": "wallet/transfer",
   //ADD MONEY
   "POST /v1/add_money": "wallet/add",
+  //TRANSACTION HISTORY
+  "GET /v1/transactions": "wallet/history",
 };
