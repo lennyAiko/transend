@@ -15,5 +15,6 @@ module.exports.routes = {
   "POST /v1/refresh": "user/refresh",
   "POST /v1/reset": "password/reset",
   // USER
-  "GET /user": "user/view",
+  "GET /v1/user": "user/view",
+  "GET /v1/user/wallet": "wallet/view",
 };
