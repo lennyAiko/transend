@@ -9,10 +9,11 @@
  */
 
 module.exports.routes = {
-    // AUTH
-    'POST /register': 'user/register',
-    'POST /login': 'user/login',
-    'POST /refresh': 'user/refresh',
-    // USER
-    'GET /user': 'user/view'
+  // AUTH
+  "POST /v1/register": "user/register",
+  "POST /v1/login": "user/login",
+  "POST /v1/refresh": "user/refresh",
+  "POST /v1/reset": "password/reset",
+  // USER
+  "GET /user": "user/view",
 };
