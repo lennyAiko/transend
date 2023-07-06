@@ -4,6 +4,20 @@ A project for the Treblle API hackathon
 
 Transend exists to simulate a simple transfer process
 
+### Instructions
+- Register a user
+- Log in with email and password
+- Copy access token and use as bearer token for all requests, **IMPORTANT**
+Endpoints that don't require access token are `/v1/register` `/v1/login` `/v1/reset` `/v1/forgot` `/v1/refresh`
+
+**To add money**
+- Send amount to `/v1/add_money`
+- Check `/v1/user/wallet` for update
+
+**To transer make transfer**
+- Send amount and email to `/v1/transfer`
+- Check `/v1/user/wallet` for update
+
 Here's how to setup:
 ---
 ---
