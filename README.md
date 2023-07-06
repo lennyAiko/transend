@@ -1,8 +1,14 @@
-# transend
+# Transend (simple transfer and add money api)
 
-A project for the Treblle API hackathon
+A project for the Treblle API hackathon.
 
-Transend exists to simulate a simple transfer process
+Transend exists to simulate a simple transfer process. This API provides a simple, easy and secured way to transfer and add money between users. It uses JSON Web Tokens (JWTs) for authentication and authorization, and it has endpoints for forgot password, reset password, and retrieve transactions history.
+
+# Project Features:
+- Simple and easy to use
+- Uses JWTs for authentication and authorization
+- Includes endpoints for forgot password, reset password, and retrieve transactions history which provides a secure way to access the API.
+- Has about 10 endpoints in total
 
 Here's how to setup:
 ---
