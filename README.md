@@ -8,6 +8,7 @@ Transend exists to simulate a simple transfer process
 - Register a user
 - Log in with email and password
 - Copy access token and use as bearer token for all requests, **IMPORTANT**
+
 Endpoints that don't require access token are `/v1/register` `/v1/login` `/v1/reset` `/v1/forgot` `/v1/refresh`
 
 **To add money**
